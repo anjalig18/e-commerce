@@ -81,82 +81,82 @@ Ensure you have this installed on your system:
 
 ###  Running-e-commerce
 
-# Running a SQL File in SQL Workbench
+# Running an E-Commerce SQL Script in SQL Workbench
 
 ## Download and Install SQL Workbench:
 
 1. **Download SQL Workbench:**
-   - Visit the [SQL Workbench/J official site](http://www.sql-workbench.net/).
-   - Download the version appropriate for your operating system.
+  - Visit the [SQL Workbench/J official site](http://www.sql-workbench.net/).
+  - Download the version appropriate for your operating system.
 
 2. **Install SQL Workbench:**
-   - Follow the installation instructions specific to your operating system.
+  - Follow the installation instructions specific to your operating system.
 
 ## Set Up Database Connection:
 
 1. **Open SQL Workbench:**
-   - Launch the SQL Workbench application.
+  - Launch the SQL Workbench application.
 
 2. **Configure the Database Driver:**
-   - Go to `File > Manage Drivers`.
-   - Add the appropriate JDBC driver for your database (e.g., MySQL, PostgreSQL).
+  - Go to `File > Manage Drivers`.
+  - Add the appropriate JDBC driver for your database (e.g., MySQL, PostgreSQL).
 
 3. **Add a New Connection Profile:**
-   - Click `New` to add a new connection profile.
-   - Enter connection details (e.g., URL, username, password) for your database.
+  - Click `New` to add a new connection profile.
+  - Enter connection details (e.g., URL, username, password) for your e-commerce database.
 
-## Open the SQL File:
+## Open the SQL Script File:
 
 1. **Open SQL Script:**
-   - Click on `File > Open SQL Script` or press `Ctrl+O`.
-   - Browse to and select the SQL file you want to run.
+  - Click on `File > Open SQL Script` or press `Ctrl+O`.
+  - Browse to and select the SQL script file for your e-commerce database.
 
-## Run the SQL File:
+## Run the SQL Script:
 
-1. **Display SQL File Contents:**
-   - The contents of the SQL file will be displayed in the query editor.
+1. **Display SQL Script Contents:**
+  - The contents of the SQL script file will be displayed in the query editor.
 
 2. **Execute the Script:**
-   - Click on the `Run Script` button (green arrow) or press `Ctrl+Enter` to execute the script.
-   - Monitor the `Messages` tab for any errors or successful execution messages.
+  - Click on the `Run Script` button (green arrow) or press `Ctrl+Enter` to execute the script.
+  - Monitor the `Messages` tab for any errors or successful execution messages.
 
-# Creating an ERD using Reverse Engineering
+# Creating an ERD for the E-Commerce Database using Reverse Engineering
 
 ## Install MySQL Workbench (if using MySQL):
 
 1. **Download MySQL Workbench:**
-   - Visit the [MySQL website](https://dev.mysql.com/downloads/workbench/).
-   - Download and install MySQL Workbench.
+  - Visit the [MySQL website](https://dev.mysql.com/downloads/workbench/).
+  - Download and install MySQL Workbench.
 
 ## Set Up Database Connection in MySQL Workbench:
 
 1. **Open MySQL Workbench:**
-   - Launch MySQL Workbench.
+  - Launch MySQL Workbench.
 
 2. **Connect to Database:**
-   - Click on `Database > Connect to Database` or use the `+` button to add a new connection.
-   - Enter connection details for your database (hostname, port, username, password) and connect.
+  - Click on `Database > Connect to Database` or use the `+` button to add a new connection.
+  - Enter connection details for your e-commerce database (hostname, port, username, password) and connect.
 
 ## Reverse Engineer Database to Create ERD:
 
 1. **Start Reverse Engineering Wizard:**
-   - After connecting, go to `Database > Reverse Engineer` to start the reverse engineering wizard.
+  - After connecting, go to `Database > Reverse Engineer` to start the reverse engineering wizard.
 
 2. **Select Database:**
-   - Select the database you want to reverse engineer.
-   - Follow the steps in the wizard:
-     - Select the schemas you want to include.
-     - Choose the objects to import (tables, views, routines).
+  - Select the e-commerce database you want to reverse engineer.
+  - Follow the steps in the wizard:
+    - Select the schemas you want to include.
+    - Choose the objects to import (tables, views, routines).
 
 3. **Execute Reverse Engineering:**
-   - Click `Execute` to start the reverse engineering process.
+  - Click `Execute` to start the reverse engineering process.
 
 4. **Generate ERD:**
-   - Once the process is complete, MySQL Workbench will generate the ERD for the selected database.
-   - The ERD will be displayed in the MySQL Workbench window.
-   - You can adjust the layout, edit table properties, and add notes as needed.
+  - Once the process is complete, MySQL Workbench will generate the ERD for the e-commerce database.
+  - The ERD will be displayed in the MySQL Workbench window.
+  - You can adjust the layout, edit table properties, and add notes as needed.
 
 5. **Save the ERD:**
-   - Click on `File > Save` or `Save As` to save the ERD.
+  - Click on `File > Save` or `Save As` to save the ERD.
 
 
