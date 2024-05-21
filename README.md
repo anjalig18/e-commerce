@@ -123,3 +123,5 @@ Create the Database: Open a new SQL tab and run the following script and there w
 **2.ER Diagram**
 
 Use reverse engineer option in database tab and you can create it.
+
+![ER diagram](https://github.com/anjalig18/e-commerce/assets/92169945/01039b50-7719-4242-aa68-0dada4a64f72)
