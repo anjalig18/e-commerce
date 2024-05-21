@@ -83,7 +83,7 @@ View data in all tables using a prepared statement.
 
 **Instructions to Run in SQL Workbench**
 
-To set up and run the database schema and initial data population in MySQL Workbench, follow these steps:
+**1.To set up and run the database schema and initial data population in MySQL Workbench, follow these steps:**
 
 Open MySQL Workbench: Launch MySQL Workbench on your computer.
 
@@ -96,6 +96,6 @@ Connect to the Database: Select your connection and click Connect.
 
 Create the Database: Open a new SQL tab and run the following script and there we go, we have the results.
 
-ER Diagram
+**2.ER Diagram**
 
 Use reverse engineer option in database tab and you can create it.
