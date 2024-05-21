@@ -1,6 +1,8 @@
 **E-Commerce Database Setup and Initialization**
 
+
 **Overview**
+
 This document outlines the structure and initial data setup for an e-commerce database named mydb. The database includes tables for product inventory, customer data, orders, payments, and shipping information. Each table has been populated with sample data to illustrate the functionality.
 
 **Database Schema**
@@ -53,13 +55,21 @@ ShippingAddress (VARCHAR(150)): Address where the order is being shipped.
 **ProductInventory Table**
 
 Inserted 5 products with details including their IDs, names, descriptions, prices, and quantities in stock.
-CustomerData Table
+
+**CustomerData Table**
+
 Inserted 5 customers with details including their IDs, names, emails, phone numbers, and addresses.
-OrderData Table
+
+**OrderData Table**
+
 Inserted 5 orders with details including their IDs, customer IDs, order dates, total amounts, and order statuses.
-Payment Table
+
+**Payment Table**
+
 Inserted 5 payments with details including their order IDs, customer IDs, payment dates, amounts, transaction IDs, and payment statuses.
-ShippingInformation Table
+
+**ShippingInformation Table**
+
 Inserted shipping information for 3 orders with details including their order IDs, shipping dates, tracking numbers, delivery dates, and shipping addresses.
 
 **SQL Commands**
