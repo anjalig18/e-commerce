@@ -1,127 +1,178 @@
-**E-Commerce Database Setup and Initialization**
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">E-COMMERCE</h1>
+</p>
+<p align="center">
+    <em>HTTP error 401 for prompt `slogan`</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/anjalig18/e-commerce.git?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/anjalig18/e-commerce.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/anjalig18/e-commerce.git?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/anjalig18/e-commerce.git?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	</p>
+<hr>
 
+##  Quick Links
 
-**Overview**
+> - [ Overview](#-overview)
+> - [ Features](#-features)
+> - [ Repository Structure](#-repository-structure)
+> - [ Modules](#-modules)
+> - [ Getting Started](#-getting-started)
+>   - [ Installation](#-installation)
+>   - [ Running e-commerce](#-running-e-commerce)
+>   - [ Tests](#-tests)
+> - [ Project Roadmap](#-project-roadmap)
+> - [ Contributing](#-contributing)
+> - [ License](#-license)
+> - [ Acknowledgments](#-acknowledgments)
 
-This document outlines the structure and initial data setup for an e-commerce database named mydb. The database includes tables for product inventory, customer data, orders, payments, and shipping information. Each table has been populated with sample data to illustrate the functionality.
+---
 
-**Database Schema**
-**Tables**
+##  Overview
 
-**1.ProductInventory**
+HTTP error 401 for prompt `overview`
 
-•productId (INT, PRIMARY KEY): Unique identifier for each product.
+---
 
-•productName (VARCHAR(50)): Name of the product.
+##  Features
 
-•descriptionText (VARCHAR(100)): Description of the product.
+HTTP error 401 for prompt `features`
 
-•price (INT): Price of the product.
+---
 
-•quantityStock (INT): Quantity of the product in stock.
+##  Repository Structure
 
-**2.CustomerData**
+```sh
+└── e-commerce/
+    ├── E-Commerce.sql
+    ├── ER diagram.png
+    └── README.md
+```
 
-•CustomerId (INT, PRIMARY KEY): Unique identifier for each customer.
+---
 
-•CustomerName (VARCHAR(50)): Name of the customer.
+##  Modules
 
-•CustomerEmail (VARCHAR(100)): Email address of the customer.
+<details closed><summary>.</summary>
 
-•Phone (VARCHAR(20)): Phone number of the customer.
+| File                                                                                     | Summary                                    |
+| ---                                                                                      | ---                                        |
+| [E-Commerce.sql](https://github.com/anjalig18/e-commerce.git/blob/master/E-Commerce.sql) | HTTP error 401 for prompt `E-Commerce.sql` |
 
-•CustomerAddress (VARCHAR(150)): Address of the customer.
+</details>
 
-**3.OrderData**
+---
 
-•OrderId (INT, PRIMARY KEY): Unique identifier for each order.
+##  Getting Started
 
-•CustomerId (INT): ID of the customer who placed the order.
+***Requirements***
 
-•OrderDate (INT): Date when the order was placed (in YYYYMMDD format).
+Ensure you have the following dependencies installed on your system:
 
-•TotalAmount (INT): Total amount of the order.
+* **SQL**: `version x.y.z`
 
-•OrderStatus (VARCHAR(100)): Status of the order (e.g., Shipped, Delivered, Pending, Processing).
+###  Installation
 
-**4.Payment**
+1. Clone the e-commerce repository:
 
-•OrderId (INT, PRIMARY KEY): ID of the order being paid for.
+```sh
+git clone https://github.com/anjalig18/e-commerce.git
+```
 
-•CustomerId (INT): ID of the customer making the payment.
+2. Change to the project directory:
 
-•PaymentDate (INT): Date when the payment was made (in YYYYMMDD format).
+```sh
+cd e-commerce
+```
 
-•Amount (INT): Amount paid.
+3. Install the dependencies:
 
-•TransactionID (INT): Unique identifier for the transaction.
+```sh
+> INSERT-INSTALL-COMMANDS
+```
 
-•PaymentStatus (INT): Status of the payment (e.g., 1 for successful, 0 for pending).
+###  Running e-commerce
 
-**5.ShippingInformation**
+Use the following command to run e-commerce:
 
-•OrderId (INT, PRIMARY KEY): ID of the order being shipped.
+```sh
+> INSERT-RUN-COMMANDS
+```
 
-•ShippingDate (INT): Date when the order was shipped (in YYYYMMDD format).
+###  Tests
 
-•TrackingNmuber (INT): Tracking number for the shipment.
+To execute tests, run:
 
-•DeliveryDate (INT): Date when the order was delivered (in YYYYMMDD format).
+```sh
+> INSERT-TEST-COMMANDS
+```
 
-•ShippingAddress (VARCHAR(150)): Address where the order is being shipped.
+---
 
+##  Project Roadmap
 
-**Initial Data Population**
+- [X] `► INSERT-TASK-1`
+- [ ] `► INSERT-TASK-2`
+- [ ] `► ...`
 
-**ProductInventory Table**
+---
 
-•Inserted 5 products with details including their IDs, names, descriptions, prices, and quantities in stock.
+##  Contributing
 
-**CustomerData Table**
+Contributions are welcome! Here are several ways you can contribute:
 
-•Inserted 5 customers with details including their IDs, names, emails, phone numbers, and addresses.
+- **[Submit Pull Requests](https://github.com/anjalig18/e-commerce.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/anjalig18/e-commerce.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/anjalig18/e-commerce.git/issues)**: Submit bugs found or log feature requests for E-commerce.
 
-**OrderData Table**
+<details closed>
+    <summary>Contributing Guidelines</summary>
 
-•Inserted 5 orders with details including their IDs, customer IDs, order dates, total amounts, and order statuses.
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   ```sh
+   git clone https://github.com/anjalig18/e-commerce.git
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to GitHub**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
 
-**Payment Table**
+Once your PR is reviewed and approved, it will be merged into the main branch.
 
-•Inserted 5 payments with details including their order IDs, customer IDs, payment dates, amounts, transaction IDs, and payment statuses.
+</details>
 
-**ShippingInformation Table**
+---
 
-•Inserted shipping information for 3 orders with details including their order IDs, shipping dates, tracking numbers, delivery dates, and shipping addresses.
+##  License
 
-**SQL Commands**
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
-The document includes SQL commands to:
+---
 
-•Create each table.
+##  Acknowledgments
 
-•Populate each table with sample data.
+- List any resources, contributors, inspiration, etc. here.
 
-•List all tables in the database.
+[**Return**](#-quick-links)
 
-•View data in all tables using a prepared statement.
-
-**Instructions to Run in SQL Workbench**
-
-**1.To set up and run the database schema and initial data population in MySQL Workbench, follow these steps:**
-
-Open MySQL Workbench: Launch MySQL Workbench on your computer.
-
-Create a New Connection: If you haven't already, create a new connection to your MySQL server.
-
-Go to Database > Manage Connections.
-Click New and enter your connection details (hostname, port, username, and password).
-Test the connection to ensure it is working and save it.
-Connect to the Database: Select your connection and click Connect.
-
-Create the Database: Open a new SQL tab and run the following script and there we go, we have the results.
-
-**2.ER Diagram**
-
-Use reverse engineer option in database tab and you can create it.
-
-![ER diagram](https://github.com/anjalig18/e-commerce/assets/92169945/01039b50-7719-4242-aa68-0dada4a64f72)
+---
