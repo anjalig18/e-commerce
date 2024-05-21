@@ -18,7 +18,7 @@ This document outlines the structure and initial data setup for an e-commerce da
 
 •price (INT): Price of the product.
 
-quantityStock (INT): Quantity of the product in stock.
+•quantityStock (INT): Quantity of the product in stock.
 
 **2.CustomerData**
 
@@ -98,8 +98,11 @@ quantityStock (INT): Quantity of the product in stock.
 The document includes SQL commands to:
 
 •Create each table.
+
 •Populate each table with sample data.
+
 •List all tables in the database.
+
 •View data in all tables using a prepared statement.
 
 **Instructions to Run in SQL Workbench**
