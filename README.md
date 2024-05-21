@@ -87,73 +87,82 @@ Ensure you have the following dependencies installed on your system:
 
 ###  Running-e-commerce
 
-**Part 1: Running a SQL File in SQL Workbench**
+# Running a SQL File in SQL Workbench
 
-Download and Install SQL Workbench:
+## Download and Install SQL Workbench:
 
-If you haven't already, download SQL Workbench from SQL Workbench/J official site.
+1. **Download SQL Workbench:**
+   - Visit the [SQL Workbench/J official site](http://www.sql-workbench.net/).
+   - Download the version appropriate for your operating system.
 
-Follow the installation instructions specific to your operating system.
+2. **Install SQL Workbench:**
+   - Follow the installation instructions specific to your operating system.
 
-Set Up Database Connection:
+## Set Up Database Connection:
 
-Open SQL Workbench.
+1. **Open SQL Workbench:**
+   - Launch the SQL Workbench application.
 
-Click on File > Manage Drivers to configure the database driver.
+2. **Configure the Database Driver:**
+   - Go to `File > Manage Drivers`.
+   - Add the appropriate JDBC driver for your database (e.g., MySQL, PostgreSQL).
 
-Add the appropriate JDBC driver for your database (e.g., MySQL, PostgreSQL).
+3. **Add a New Connection Profile:**
+   - Click `New` to add a new connection profile.
+   - Enter connection details (e.g., URL, username, password) for your database.
 
-Click New to add a new connection profile.
+## Open the SQL File:
 
-Enter connection details (e.g., URL, username, password) for your database.
+1. **Open SQL Script:**
+   - Click on `File > Open SQL Script` or press `Ctrl+O`.
+   - Browse to and select the SQL file you want to run.
 
-Open the SQL File:
+## Run the SQL File:
 
-Click on File > Open SQL Script or press Ctrl+O.
+1. **Display SQL File Contents:**
+   - The contents of the SQL file will be displayed in the query editor.
 
-Browse to and select the SQL file you want to run.
+2. **Execute the Script:**
+   - Click on the `Run Script` button (green arrow) or press `Ctrl+Enter` to execute the script.
+   - Monitor the `Messages` tab for any errors or successful execution messages.
 
-Run the SQL File:
+# Creating an ERD using Reverse Engineering
 
-The contents of the SQL file will be displayed in the query editor.
+## Install MySQL Workbench (if using MySQL):
 
-Click on the Run Script button (green arrow) or press Ctrl+Enter to execute the script.
+1. **Download MySQL Workbench:**
+   - Visit the [MySQL website](https://dev.mysql.com/downloads/workbench/).
+   - Download and install MySQL Workbench.
 
-Monitor the Messages tab for any errors or successful execution messages.
+## Set Up Database Connection in MySQL Workbench:
 
-**Part 2: Creating an ERD using Reverse Engineering**
+1. **Open MySQL Workbench:**
+   - Launch MySQL Workbench.
 
-Install MySQL Workbench (if using MySQL):
+2. **Connect to Database:**
+   - Click on `Database > Connect to Database` or use the `+` button to add a new connection.
+   - Enter connection details for your database (hostname, port, username, password) and connect.
 
-If you're working with a MySQL database, download and install MySQL Workbench from the MySQL website.
+## Reverse Engineer Database to Create ERD:
 
-Set Up Database Connection in MySQL Workbench:
+1. **Start Reverse Engineering Wizard:**
+   - After connecting, go to `Database > Reverse Engineer` to start the reverse engineering wizard.
 
-Open MySQL Workbench.
+2. **Select Database:**
+   - Select the database you want to reverse engineer.
+   - Follow the steps in the wizard:
+     - Select the schemas you want to include.
+     - Choose the objects to import (tables, views, routines).
 
-Click on Database > Connect to Database or use the + button to add a new connection.
+3. **Execute Reverse Engineering:**
+   - Click `Execute` to start the reverse engineering process.
 
-Enter connection details for your database (hostname, port, username, password) and connect.
+4. **Generate ERD:**
+   - Once the process is complete, MySQL Workbench will generate the ERD for the selected database.
+   - The ERD will be displayed in the MySQL Workbench window.
+   - You can adjust the layout, edit table properties, and add notes as needed.
 
-Reverse Engineer Database to Create ERD:
+5. **Save the ERD:**
+   - Click on `File > Save` or `Save As` to save the ERD.
 
-After connecting, go to Database > Reverse Engineer to start the reverse engineering wizard.
-
-Select the database you want to reverse engineer.
-
-Follow the steps in the wizard:
-
-Select the schemas you want to include.
-
-Choose the objects to import (tables, views, routines).
-
-Click Execute to start the reverse engineering process.
-
-Once the process is complete, MySQL Workbench will generate the ERD for the selected database.
-
-The ERD will be displayed in the MySQL Workbench window.
-
-You can adjust the layout, edit table properties, and add notes as needed.
-
-Save the ERD by clicking on File > Save or Save As.
 
