@@ -75,9 +75,9 @@ Order Fulfillment: Tracks shipping progress and delivery status to ensure timely
 
 ***Requirements***
 
-Ensure you have the following dependencies installed on your system:
+Ensure you have this installed on your system:
 
-* **SQL**: `version 8.0`
+* **SQL Workbench**: `version 8.0`
 
 ###  Running-e-commerce
 
