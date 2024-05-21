@@ -45,31 +45,31 @@ This document outlines the structure and initial data setup for an e-commerce da
 
 ##  Features
 
-ProductInventory Table
+**ProductInventory Table**
 
 Product Management: Stores information about each product, including its unique ID, name, description, price, and available stock quantity.
 
 Inventory Tracking: Allows for easy tracking of product quantities to manage stock levels efficiently.
 
-CustomerData Table
+**CustomerData Table**
 
 Customer Information: Holds comprehensive details about customers, including their unique ID, name, email, phone number, and address.
 
 Contact Management: Facilitates communication with customers through stored contact information.
 
-OrderData Table
+**OrderData Table**
 
 Order Tracking: Records each order's unique ID, customer ID, order date, total amount, and current status (e.g., Shipped, Delivered, Pending, Processing).
 
 Customer Orders: Links orders to customers to track purchase history and order details.
 
-Payment Table
+**Payment Table**
 
 Payment Processing: Captures payment details for each order, including order ID, customer ID, payment date, amount, transaction ID, and payment status.
 
 Transaction Management: Ensures secure and accurate payment tracking with transaction IDs and status indicators.
 
-ShippingInformation Table
+**ShippingInformation Table**
 
 Shipping Management: Contains shipping details such as order ID, shipping date, tracking number, delivery date, and shipping address.
 
