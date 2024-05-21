@@ -151,8 +151,9 @@ Click Execute to start the reverse engineering process.
 
 Once the process is complete, MySQL Workbench will generate the ERD for the selected database.
 
-Save the ERD.
-
 The ERD will be displayed in the MySQL Workbench window.
+
 You can adjust the layout, edit table properties, and add notes as needed.
+
 Save the ERD by clicking on File > Save or Save As.
+
